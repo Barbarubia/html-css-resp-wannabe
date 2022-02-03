@@ -106,6 +106,10 @@ img {
     padding: 0 10px;
   }
 
+  #steps .row {
+    padding-top: 10px;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
