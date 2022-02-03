@@ -130,12 +130,16 @@ img {
   }
 
   #why .row img {
-    height: 40px;
+    height: auto;
+    max-width: 100%;
+    max-height: 40px;
   }
 
   /* COMMON */
   img {
-    height: 100px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100px;
   }
 
   hr {
