@@ -71,3 +71,72 @@ img {
 .clear {
   clear: both;
 }
+
+/* SVOLGIMENTO ESERCIZIO RESPONSIVE CON MEDIA QUERIES */
+
+@media screen and (max-width: 419px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background-color: #f2f2cd;
+  }
+
+  .row {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni {
+    padding: 0 10px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+
+  /* BLOCCO STEPS */
+  #steps {
+    background-color: white;
+    padding: 0 10px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  /* BLOCCO PERCHE */
+  #why {
+    background-color: #f2f2cd;
+    padding: 0 10px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+
+  #why .row img {
+    height: 40px;
+  }
+
+  /* COMMON */
+  img {
+    height: 100px;
+  }
+
+  hr {
+    border: 1px solid grey;
+    background: grey;
+  }
+
+}
